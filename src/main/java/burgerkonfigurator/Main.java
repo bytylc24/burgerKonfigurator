@@ -27,7 +27,7 @@ public class Main extends Application {
         Parent overviewRoot = load("overview-view.fxml", overview);
 
         Tab configuratorTab = new Tab("Konfigurator", configuratorRoot);
-        Tab overviewTab = new Tab("Übersicht", overviewRoot);
+        Tab overviewTab = new Tab("Test 2", overviewRoot);
         configuratorTab.setClosable(false);
         overviewTab.setClosable(false);
         TabPane tabs = new TabPane(configuratorTab, overviewTab);
